@@ -499,7 +499,7 @@ apt_get mysql-server mysql-client
 
 ## apt sources, allows nightly
 ALTERNC_SOURCE_LIST_FILE="/etc/apt/sources.list.d/alternc.list" 
-ALTERNC_SOURCE_VALUE=${ALTERNC_SOURCE_VALUE:-"deb http://debian.alternc.org/ wheezy main"}
+ALTERNC_SOURCE_VALUE=${ALTERNC_SOURCE_VALUE:-"deb http://debian.alternc.org/ jessie main"}
 ALTERNC_SOURCE_KEY_URL=${ALTERNC_SOURCE_KEY_URL:-"http://debian.alternc.org/key.txt"}
 
 # Sets backport source file
